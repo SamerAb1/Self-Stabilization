@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FirstAlgorithmProcessorValues_Controller">
+   <children>
+      <Label layoutX="197.0" layoutY="8.0" text="K-state machines">
+         <font>
+            <Font name="Audiowide" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label1" alignment="CENTER" layoutX="34.0" layoutY="96.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label2" alignment="CENTER" layoutX="34.0" layoutY="146.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="2" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label3" alignment="CENTER" layoutX="34.0" layoutY="196.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label4" alignment="CENTER" layoutX="34.0" layoutY="246.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="4" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label5" alignment="CENTER" layoutX="34.0" layoutY="296.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="5" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label7" alignment="CENTER" layoutX="174.0" layoutY="146.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="7" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label8" alignment="CENTER" layoutX="174.0" layoutY="196.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="8" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label6" alignment="CENTER" layoutX="174.0" layoutY="96.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="6" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label11" alignment="CENTER" layoutX="314.0" layoutY="96.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="11" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label16" alignment="CENTER" layoutX="454.0" layoutY="96.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="16" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label9" alignment="CENTER" layoutX="174.0" layoutY="246.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="9" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label10" alignment="CENTER" layoutX="174.0" layoutY="296.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="10" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label12" alignment="CENTER" layoutX="314.0" layoutY="146.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="12" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label13" alignment="CENTER" layoutX="314.0" layoutY="196.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="13" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label14" alignment="CENTER" layoutX="314.0" layoutY="246.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="14" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label15" alignment="CENTER" layoutX="314.0" layoutY="296.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="15" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label17" alignment="CENTER" layoutX="454.0" layoutY="146.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="17" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label18" alignment="CENTER" layoutX="454.0" layoutY="196.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="18" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label19" alignment="CENTER" layoutX="454.0" layoutY="246.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="19" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label20" alignment="CENTER" layoutX="454.0" layoutY="296.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: #4754a2;" text="20" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Processor1Value_FAPV" layoutX="59.0" layoutY="96.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor2Value_FAPV" layoutX="59.0" layoutY="146.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor3Value_FAPV" layoutX="59.0" layoutY="196.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor4Value_FAPV" layoutX="59.0" layoutY="246.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor5Value_FAPV" layoutX="59.0" layoutY="296.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor6Value_FAPV" layoutX="199.0" layoutY="96.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor7Value_FAPV" layoutX="199.0" layoutY="146.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor8Value_FAPV" layoutX="199.0" layoutY="196.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor9Value_FAPV" layoutX="199.0" layoutY="246.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor10Value_FAPV" layoutX="199.0" layoutY="296.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor11Value_FAPV" layoutX="339.0" layoutY="96.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor12Value_FAPV" layoutX="339.0" layoutY="146.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor13Value_FAPV" layoutX="339.0" layoutY="196.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor14Value_FAPV" layoutX="339.0" layoutY="246.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor15Value_FAPV" layoutX="339.0" layoutY="296.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor16Value_FAPV" layoutX="479.0" layoutY="96.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor17Value_FAPV" layoutX="479.0" layoutY="146.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor18Value_FAPV" layoutX="479.0" layoutY="196.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor19Value_FAPV" layoutX="479.0" layoutY="246.0" prefHeight="25.0" prefWidth="87.0" />
+      <TextField fx:id="Processor20Value_FAPV" layoutX="479.0" layoutY="296.0" prefHeight="25.0" prefWidth="87.0" />
+      <Label layoutX="59.0" layoutY="50.0" prefHeight="17.0" prefWidth="399.0" text="Please enter a  value of Processor in the range : ">
+         <font>
+            <Font name="Audiowide" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="K_value_FAPV" layoutX="446.0" layoutY="50.0" prefHeight="18.0" prefWidth="105.0" text="0 ≤ X ≤ 999">
+         <font>
+            <Font name="Audiowide" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="Startbtn_FAPV" layoutX="371.0" layoutY="343.0" mnemonicParsing="false" onAction="#Startbtn_FAPV" prefHeight="30.0" prefWidth="165.0" style="-fx-background-color: #7ab15d;" text="Start" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Backbtn_FAPV" layoutX="77.0" layoutY="343.0" mnemonicParsing="false" onAction="#Backbtn_FAPV" prefHeight="30.0" prefWidth="165.0" style="-fx-background-color: #e32021;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Audiowide" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

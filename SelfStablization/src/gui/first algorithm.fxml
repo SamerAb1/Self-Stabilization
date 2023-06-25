@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FirstAlgorithm_Controller">
+   <children>
+      <Pane maxHeight="780.0" maxWidth="1000.0" minHeight="790.0" minWidth="1200.0" prefHeight="780.0" prefWidth="1200.0">
+         <children>
+            <Rectangle fx:id="Processor110" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="30.0" layoutX="1071.0" layoutY="166.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" width="30.0" />
+            <Rectangle fx:id="Processor1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="50.0" layoutX="560.0" layoutY="91.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" width="50.0" />
+            <Circle fx:id="Processor6" fill="WHITE" layoutX="905.0" layoutY="424.0" onMouseClicked="#Processor6_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor5" fill="WHITE" layoutX="880.0" layoutY="328.0" onMouseClicked="#Processor5_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor4" fill="WHITE" layoutX="835.0" layoutY="235.0" onMouseClicked="#Processor4_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor3" fill="WHITE" layoutX="765.0" layoutY="175.0" onMouseClicked="#Processor3_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor2" fill="WHITE" layoutX="682.0" layoutY="131.0" onMouseClicked="#Processor2_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor17" fill="WHITE" layoutX="290.0" layoutY="328.0" onMouseClicked="#Processor17_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor18" fill="WHITE" layoutX="335.0" layoutY="234.0" onMouseClicked="#Processor18_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor19" fill="WHITE" layoutX="406.0" layoutY="175.0" onMouseClicked="#Processor19_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor20" fill="WHITE" layoutX="488.0" layoutY="131.0" onMouseClicked="#Processor20_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor16" fill="WHITE" layoutX="265.0" layoutY="424.0" onMouseClicked="#Processor16_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor7" fill="WHITE" layoutX="880.0" layoutY="520.0" onMouseClicked="#Processor7_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor8" fill="WHITE" layoutX="835.0" layoutY="614.0" onMouseClicked="#Processor8_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor9" fill="WHITE" layoutX="765.0" layoutY="673.0" onMouseClicked="#Processor9_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor10" fill="WHITE" layoutX="682.0" layoutY="717.0" onMouseClicked="#Processor10_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor11" fill="WHITE" layoutX="585.0" layoutY="732.0" onMouseClicked="#Processor11_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor15" fill="WHITE" layoutX="290.0" layoutY="520.0" onMouseClicked="#Processor15_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor14" fill="WHITE" layoutX="335.0" layoutY="613.0" onMouseClicked="#Processor14_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor13" fill="WHITE" layoutX="406.0" layoutY="673.0" onMouseClicked="#Processor13_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fx:id="Processor12" fill="WHITE" layoutX="488.0" layoutY="717.0" onMouseClicked="#Processor12_click" radius="25.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Label layoutX="411.0" layoutY="-1.0" text="K-State Machines Algorithm">
+               <font>
+                  <Font name="Audiowide" size="22.0" />
+               </font>
+            </Label>
+            <Circle fill="WHITE" layoutX="28.0" layoutY="660.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Circle fill="WHITE" layoutX="28.0" layoutY="740.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke: #ffda21; -fx-stroke-width: 5; -fx-fill: #7ab15d;" />
+            <Circle fill="#ffffffd6" layoutX="28.0" layoutY="700.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5; -fx-stroke: #ffda21;" />
+            <Label layoutX="54.0" layoutY="650.0" text="No Privilege">
+               <font>
+                  <Font name="Audiowide" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="690.0" text="Privilege">
+               <font>
+                  <Font name="Audiowide" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="730.0" text="Hold a Token">
+               <font>
+                  <Font name="Audiowide" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="41.0" text="N = ">
+               <font>
+                  <Font name="Audiowide" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="N_value_label" layoutX="61.0" layoutY="41.0" text="value">
+               <font>
+                  <Font name="Audiowide" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="75.0" prefHeight="26.0" prefWidth="42.0" text="K =">
+               <font>
+                  <Font name="Audiowide" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="NextStep_button" layoutX="984.0" layoutY="47.0" mnemonicParsing="false" onAction="#NextStep_button" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #4754a2;" text="Next Step" textFill="WHITE">
+               <font>
+                  <Font name="Audiowide" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="automatic_button" layoutX="984.0" layoutY="103.0" mnemonicParsing="false" onAction="#automatic_button" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #7ab15d;" text="Automatic" textFill="WHITE">
+               <font>
+                  <Font name="Audiowide" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="Exit_button" layoutX="1016.0" layoutY="726.0" mnemonicParsing="false" onAction="#Exit_button" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: #e32021;" text="EXIT" textFill="WHITE">
+               <font>
+                  <Font name="Audiowide" size="25.0" />
+               </font>
+            </Button>
+            <Label fx:id="Plabel1" layoutX="565.0" layoutY="54.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel2" layoutX="672.0" layoutY="71.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel3" layoutX="767.0" layoutY="114.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel4" layoutX="849.0" layoutY="183.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel5" layoutX="910.0" layoutY="289.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel6" layoutX="939.0" layoutY="407.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel7" layoutX="910.0" layoutY="528.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel8" layoutX="849.0" layoutY="635.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel9" layoutX="767.0" layoutY="701.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel10" layoutX="672.0" layoutY="740.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel11" layoutX="565.0" layoutY="757.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel12" layoutX="444.0" layoutY="740.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel15" layoutX="221.0" layoutY="525.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel13" layoutX="360.0" layoutY="700.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel14" layoutX="276.0" layoutY="630.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel16" layoutX="193.0" layoutY="407.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel17" layoutX="221.0" layoutY="286.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel18" layoutX="276.0" layoutY="183.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel19" layoutX="362.0" layoutY="114.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="Plabel20" layoutX="458.0" layoutY="71.0" text="999" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="stableNote_label" layoutX="13.0" layoutY="101.0" prefHeight="31.0" prefWidth="250.0" text="Note : Does not guarantee stability" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Circle fill="WHITE" layoutX="1086.0" layoutY="215.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" style="-fx-stroke-width: 5;" />
+            <Label layoutX="1114.0" layoutY="171.0" text="Special">
+               <font>
+                  <Font name="Audiowide" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1114.0" layoutY="205.0" text="Regular">
+               <font>
+                  <Font name="Audiowide" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="K_value_label" layoutX="61.0" layoutY="75.0" text="value">
+               <font>
+                  <Font name="Audiowide" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="P1_N" layoutX="581.0" layoutY="99.0" text="1" textAlignment="CENTER">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P2_N" layoutX="676.0" layoutY="114.0" text="2" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P3_N" layoutX="759.0" layoutY="158.0" text="3" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P4_N" layoutX="828.0" layoutY="217.0" text="4" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P5_N" layoutX="873.0" layoutY="311.0" text="5" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P6_N" layoutX="899.0" layoutY="407.0" text="6" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P7_N" layoutX="874.0" layoutY="503.0" text="7" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P8_N" layoutX="828.0" layoutY="597.0" text="8" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P9_N" layoutX="758.0" layoutY="656.0" text="9" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P10_N" layoutX="672.0" layoutY="700.0" text="10" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P11_N" layoutX="578.0" layoutY="715.0" text="11" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P12_N" layoutX="478.0" layoutY="701.0" text="12" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P13_N" layoutX="396.0" layoutY="656.0" text="13" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P14_N" layoutX="325.0" layoutY="597.0" text="14" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P15_N" layoutX="280.0" layoutY="503.0" text="15" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P16_N" layoutX="255.0" layoutY="407.0" text="16" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P17_N" layoutX="280.0" layoutY="311.0" text="17" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P18_N" layoutX="325.0" layoutY="217.0" text="18" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P19_N" layoutX="396.0" layoutY="157.0" text="19" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="P20_N" layoutX="475.0" layoutY="114.0" text="20" textAlignment="CENTER" textFill="#7b7777">
+               <font>
+                  <Font name="Agency FB Bold" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
